@@ -1,0 +1,33 @@
+/my_app
+│
+├── /backend                     # Python back-end
+│   ├── /app                     # Main application directory
+│   │   ├── __init__.py          # Initialize the app
+│   │   ├── main.py              # Entry point of the back-end
+│   │   ├── routes.py            # API routes
+│   │   ├── models.py            # Database models
+│   │   ├── controllers.py       # Business logic
+│   │   ├── utils.py             # Utility functions
+│   │   └── config.py            # Configuration settings
+│   ├── /tests                   # Unit tests for back-end
+│   │   ├── __init__.py
+│   │   └── test_routes.py
+│   ├── requirements.txt         # Python dependencies
+│   └── Dockerfile                # Dockerfile for the back-end
+│
+├── /frontend                    # C# front-end
+│   ├── /MyApp                   # Main application directory
+│   │   ├── MyApp.csproj         # C# project file
+│   │   ├── Program.cs            # Entry point of the front-end
+│   │   ├── /Views                # UI components
+│   │   ├── /Controllers          # Controller logic
+│   │   ├── /Models               # Data models
+│   │   ├── /wwwroot              # Static files (CSS, JS)
+│   │   └── appsettings.json      # Configuration settings
+│   ├── /Tests                   # Unit tests for front-end
+│   │   ├── MyApp.Tests.csproj
+│   │   └── MyAppControllerTests.cs
+│   └── Dockerfile                # Dockerfile for the front-end
+│
+└── README.md                    # Documentation
+
