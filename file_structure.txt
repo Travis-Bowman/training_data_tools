@@ -9,6 +9,7 @@
 │   │   ├── controllers.py       # Business logic
 │   │   ├── utils.py             # Utility functions
 │   │   └── config.py            # Configuration settings
+|   |   |-- manage.py            # CLI interface
 │   ├── /tests                   # Unit tests for back-end
 │   │   ├── __init__.py
 │   │   └── test_routes.py
